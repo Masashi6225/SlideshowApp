@@ -9,7 +9,18 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    let imageArray = ["0.1png","0.2png","0.3png"]
 
+    var count = 0
+    func nextImage() {
+        imageView.image = UIImage(named: photos[count])
+        count = count + 1
+        if (count>2) {
+            count = 0
+        }
+    
+    
     @IBOutlet weak var timerLabel: UILabel!
     
     var timer: Timer!
@@ -31,7 +42,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func startTimer(_ sender: Any){
-        //進むボタンを押すとTimer作成、始動
+        //再生ボタンを押すとTimer作成、始動
         if self.timer == nil {
         self.timer = Timer.scheduledTimer(timeInterval: 2.0, target: self, selector:#selector(updateTimer), userInfo: nil, repeats: true)
         } else {
