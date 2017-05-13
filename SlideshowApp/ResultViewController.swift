@@ -10,7 +10,8 @@ import UIKit
 
 class ResultViewController: UIViewController {
 
-    var imageName:String ""
+    @IBOutlet var imageView: UIView!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,6 +23,7 @@ class ResultViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
     
 
     /*
