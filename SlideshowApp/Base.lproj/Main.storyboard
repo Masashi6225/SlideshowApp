@@ -38,9 +38,9 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mcq-zt-pov">
-                                <rect key="frame" x="260" y="383" width="67" height="30"/>
+                                <rect key="frame" x="278" y="383" width="31" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="再生/停止"/>
+                                <state key="normal" title="再生"/>
                                 <connections>
                                     <action selector="startTimer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="B4Y-fW-5pR"/>
                                 </connections>
@@ -61,9 +61,9 @@
                     </view>
                     <connections>
                         <outlet property="backButton" destination="zvD-mL-XLE" id="8gH-Lq-7wB"/>
-                        <outlet property="image" destination="zvD-mL-XLE" id="6nf-rp-akL"/>
                         <outlet property="imageView" destination="SJJ-vM-5Px" id="fJj-ZT-1gR"/>
                         <outlet property="nextButton" destination="Fxb-dY-F7C" id="Jsh-Fw-xgo"/>
+                        <outlet property="timerButton" destination="Mcq-zt-pov" id="BZs-qP-6r9"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

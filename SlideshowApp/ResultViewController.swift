@@ -12,9 +12,16 @@ class ResultViewController: UIViewController {
 
     @IBOutlet weak var imageView: UIImageView!
     
+    var imageName: String=""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        //ResultViewのimageViewに画像を表示させる
+        //前の画面から渡されたimageNameを使用
+        //UIImage -> namedで画像ファイル名を指定すると、imageデータとして読み込み
+        //imageView.image　はUIImageが入るプロパティ
+        imageView.image = UIImage(named: imageName)
         // Do any additional setup after loading the view.
     }
 
