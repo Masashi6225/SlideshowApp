@@ -10,8 +10,7 @@ import UIKit
 
 class ResultViewController: UIViewController {
 
-    @IBOutlet var imageView: UIView!
-    
+    @IBOutlet weak var imageView: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()

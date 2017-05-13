@@ -98,7 +98,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <outlet property="imageView" destination="tvz-fh-4zM" id="Tgg-ub-MAq"/>
+                        <outlet property="imageView" destination="mfX-ZD-FQh" id="bxb-1c-C8K"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6YX-7F-Sc0" userLabel="First Responder" sceneMemberID="firstResponder"/>
