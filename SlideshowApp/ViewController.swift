@@ -12,7 +12,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var imageView: UIImageView!
     
-    let imageArray = ["photo1.jpg","photo2.png","photo3.png"]
+    let imageArray = ["IMG_1499.jpg","IMG_1365.png","IMG_1351.png"]
     
     var count = 0
     
