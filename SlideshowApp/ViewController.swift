@@ -47,6 +47,7 @@ class ViewController: UIViewController {
     }
 
     
+    
     var timer: Timer!
     var timer_sec: Float = 0
     
